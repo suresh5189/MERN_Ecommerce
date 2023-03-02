@@ -1,0 +1,34 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "engines":{
+    "node":"16.15.0",
+    "npm":"8.5.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "Suresh",
+  "license": "ISC", 
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.30.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.5",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "react-router-dom": "^5.3.0",
+    "stripe": "^9.10.0",
+    "validator": "^13.7.0"
+  }
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+/*Chrome Safari Opera Edge*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*Firefox */
+
+input[type="number"] {
+    -moz-appearance: none;
+}
+
+.greenColor{
+    color: green !important;
+}
+
+.redColor{
+    color: red !important;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #d0d0d0;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-image: linear-gradient(yellow,red);
+}
+

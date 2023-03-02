@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); /* 'Ubuntu', sans-serif */
+
+footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  }
+  
+  .leftFooter {
+    width: 20%;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftFooter > h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vmax;
+  }
+  .leftFooter > p {
+    text-align: center;
+    font-size: 1.2vmax;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .leftFooter > img {
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+  }
+  
+  .midFooter {
+    width: 60%;
+  
+    text-align: center;
+  }
+  
+  .midFooter > h1 {
+    font-size: 4vmax;
+    font-family: "Rampart One", arial;
+    color: #cdcdcd;
+  }
+  .midFooter > p {
+    max-width: 60%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: 1vmax auto;
+    font-size: 17px;
+  }
+  
+  .rightFooter {
+    width: 20%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightFooter > h4 {
+    font-family: "Roboto";
+    font-size: 1.4vmax;
+    text-decoration: underline;
+  }
+  .rightFooter > a {
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    transition: all 0.5s;
+    margin: 0.5vmax;
+  }
+  
+  .rightFooter > a:hover {
+    color: #eb4034;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .midFooter h1{
+      font-size: 17px;
+      margin-bottom: 15px;
+      font-family: 'Ubuntu', sans-serif;
+    }
+    .midFooter p{
+      font-size: 10px;
+    }
+  }

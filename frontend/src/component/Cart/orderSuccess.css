@@ -1,0 +1,54 @@
+.orderSuccess {
+    margin: auto;
+    text-align: center;
+    padding: 10vmax;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .orderSuccess .MuiSvgIcon-root{
+    font-size: 50px !important;
+  }
+  .orderSuccess > svg {
+    color: rgb(103, 117, 243);
+  }
+  .orderSuccess > p {
+    font-size: 3vmax;
+    font-family: "Rampart One", arial;
+    color: #2000d8;
+  }
+  .orderSuccess > a {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    color: white;
+    border: none;
+    padding: 1vmax 3vmax;
+    cursor: pointer;
+    font: 400 1.3vmax 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    margin: 1vmax;
+    transition: all 0.5s;
+  }
+
+  .orderSuccess a:hover{
+    transform: scale(1.1);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .orderSuccess > a {
+      padding: 3vw 6vw;
+      font: 400 4vw "Roboto";
+      margin: 2vmax;
+    }
+  
+    .orderSuccess > svg {
+      font-size: 20vw;
+    }
+    .orderSuccess > p {
+      margin: 2vmax;
+      font-size: 5vw;
+    }
+  }
